@@ -1,0 +1,99 @@
+body {
+    background: #f5f7fa;
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-card {
+    width: 380px;
+    padding: 25px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.btn-register {
+    background-color: #198754;
+    color: white;
+    width: 100%;
+}
+
+.btn-login {
+    width: 100%;
+}
+
+/* ====== DASHBOARD ====== */
+.navbar-dashboard {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout-btn {
+    background: #dc3545;
+    border: none;
+    padding: 6px 14px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.dashboard-container {
+    padding: 20px 40px;
+}
+
+.kue-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.kue-card img {
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+/* ====== TAMBAH KUE ====== */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form-card {
+    width: 600px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* ====== EDIT KUE ====== */
+.edit-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.edit-card {
+    width: 600px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.old-photo {
+    width: 180px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
